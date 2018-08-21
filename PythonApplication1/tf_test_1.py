@@ -16,8 +16,8 @@ init = tf.global_variables_initializer()
 
 sess = tf.Session()
 sess.run(init)
+
 for step in range(0, 201):
     sess.run(train)
     if step % 20 == 0:
         print(step, sess.run(W), sess.run(b))
-
