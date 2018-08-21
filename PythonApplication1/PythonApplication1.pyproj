@@ -24,6 +24,9 @@
     <Compile Include="fibo.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tf_test_1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="test1.py">
       <SubType>Code</SubType>
     </Compile>
